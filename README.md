@@ -1,36 +1,34 @@
+# Proyek AI News
 
-Proyek Berita AI
-Ini adalah aplikasi web sederhana yang menampilkan berita-berita terbaru seputar kecerdasan buatan (AI) dari berbagai sumber.
+## Deskripsi
 
-Fitur
-Tampilan Berita Terkini: Menampilkan berita-berita AI terbaru di bagian "Latest News".
+Proyek ini adalah aplikasi web sederhana yang dirancang untuk menyajikan berita-berita terbaru seputar kecerdasan buatan (AI). Proyek ini mengumpulkan data dari beberapa sumber berita terkemuka dan menampilkannya dalam antarmuka yang bersih dan responsif.
 
-Berita Paling Populer: Menampilkan berita dengan jumlah tampilan tertinggi di bagian "Most Viewed".
+## Fitur Unggulan
 
-Fungsi Pencarian: Pengguna dapat mencari berita berdasarkan kata kunci di judul.
+* **Berita Terkini**: Menampilkan berita-berita AI terbaru yang relevan dengan topik yang dicari.
+* **Berita Populer**: Menyoroti satu artikel yang paling banyak dilihat di bagian "Most Viewed".
+* **Fungsi Pencarian**: Pengguna dapat mencari berita berdasarkan kata kunci di judul.
+* **Pagination Otomatis**: Konten diatur dalam halaman dengan 8 artikel per halaman untuk navigasi yang mudah.
+* **Desain Responsif**: Tata letak yang beradaptasi dengan baik di berbagai ukuran layar, dari desktop hingga seluler.
 
-Pagination: Halaman berita dipaginasi, dengan 8 artikel per halaman.
+## Teknologi yang Digunakan
 
-Desain Responsif: Tampilan situs disesuaikan untuk berbagai ukuran layar.
+* **HTML**: Struktur dasar halaman web.
+* **CSS**: Gaya visual dan tata letak.
+* **JavaScript**: Mengambil, memproses, dan menampilkan data secara dinamis.
+* **API Pihak Ketiga**:
+    * NewsAPI.org
+    * TheNewsAPI.com
+    * GNews.io
 
-Sumber Berita: Berita dikumpulkan dari tiga API berita berbeda: NewsAPI.org, TheNewsAPI, dan GNews.
+## Cara Menggunakan
 
-Teknologi yang Digunakan
-HTML: Untuk struktur halaman web.
+1.  **Buka file `index.html`** di browser web pilihan Anda.
+2.  **Perbarui Kunci API**:
+    * Proyek ini menggunakan beberapa API. Untuk memastikan aplikasi berfungsi, Anda **wajib** mengganti kunci API yang ada dengan kunci API Anda sendiri.
+    * Buka file `script.js` dan temukan variabel `apis`.
+    * Ganti `apiKey=...` dan `api_token=...` dengan kunci Anda yang valid.
 
-CSS: Untuk gaya dan tata letak, termasuk desain yang responsif.
+Setelah Anda memperbarui kunci API, berita akan dimuat secara otomatis.
 
-JavaScript: Untuk mengambil data dari API, memproses data, dan menampilkan konten secara dinamis.
-
-Cara Penggunaan
-Buka file index.html di browser Anda.
-
-Ubah Kunci API: Buka file script.js dan ganti kunci API yang ada dengan milik Anda sendiri. Proyek ini menggunakan tiga API berita, jadi Anda perlu mendapatkan kunci dari:
-
-newsapi.org
-
-thenewsapi.com
-
-gnews.io
-
-Kunci API ini hardcoded dalam file script.js pada array apis. Setelah Anda mengganti kunci, berita akan dimuat dan ditampilkan.
